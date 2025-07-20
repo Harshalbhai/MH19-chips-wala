@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>एमएच19 चिप्स वाला - छत्रपती फूड्स</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Pacifico&family=Tiro+Devanagari+Marathi:wght@400;600&display=swap" rel="stylesheet">
+  <script>
+    function redirectToWhatsApp() {
+      const phoneNumber = '8888817319'; // तुमचा WhatsApp क्रमांक
+      const message = 'नमस्कार! मला MH19 चिप्स वाला बद्दल अधिक माहिती हवी आहे.';
+      window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
+    }
+
+    // Animate sections on scroll
+    window.addEventListener('scroll', () => {
+      document.querySelectorAll('.section').forEach(sec => {
+        const pos = sec.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (pos < windowHeight - 50) {
+          sec.classList.add('animate-section');
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 style="color: white;">एमएच19 चिप्स वाला</h1>
+      <p class="tagline">शेतीतून ताजे & हाताने बनवलेले स्वादिष्टपण</p>
+      <button class="btn-primary" onclick="redirectToWhatsApp()">आता ऑर्डर करा</button>
+    </div>
+  </header>
+
+  <!-- Our Story -->
+  <section class="section glass-card" id="our-story">
+    <h2>आमची कथा</h2>
+    <p>
+      छत्रपती फूड्स हा महाराष्ट्रातील दर्जेदार आणि पारंपरिक चव असलेल्या केळ्याच्या चिप्सचा एक उदयोन्मुख ब्रँड आहे.  
+      या कंपनीची स्थापना मनीषा शिंपी आणि दुर्गेश शिंपी यांनी छत्रपती उद्योग समूह अंतर्गत केली असून,  
+      स्थानिक पातळीवरून आंतरराज्यीय बाजारपेठेपर्यंत विस्तार करण्याचे उद्दिष्ट आहे.  
+      <br><br>
+      आमचा प्रमुख प्रॉडक्ट म्हणजे MH 19 Chips Vala – खमंग, कुरकुरीत आणि दर्जेदार चिप्स, जे स्थानिक केळ्यांपासून बनवले जातात.
+      आम्ही फक्त एकदाच तळलेले, शुद्ध वनस्पती तेलात तयार केलेले आणि पूर्ण स्वच्छतेसह पॅक केलेले चिप्स ग्राहकांपर्यंत पोहोचवतो.
+    </p>
+  </section>
+
+  
+
+  <!-- Products -->
+  <section class="section glass-card" id="products">
+    <h2>आमच्या चविष्ट फ्लेवर्स</h2>
+    <ul class="product-list">
+      <li>🟡 मसाला केळी चिप्स</li>
+      <li>🔴 टोमॅटो केळी चिप्स</li>
+      <li>🧀 चीज केळी चिप्स</li>
+      <li>🌿 पुदिना केळी चिप्स</li>
+      <li>⚪ सॉल्टेड केळी चिप्स</li>
+      <li>⚫ ब्लॅक पेपर केळी चिप्स</li>
+      <li>🟤 जिरा केळी चिप्स</li>
+    </ul>
+    <p class="note">संपूर्ण उत्पादन जळगाव येथे तयार होऊन, छत्रपती फूड्समार्फत नाशिक येथून पॅकिंग आणि वितरण केले जाते.</p>
+  </section>
+
+  <!-- Services -->
+  <section class="section glass-card" id="services">
+    <h2>आमच्या सेवा</h2>
+    <p>
+      आम्ही होलसेल आणि रिटेल विक्रीसोबत खासगी लेबलिंग सेवा पुरवतो.  
+      लग्न, वाढदिवस किंवा इतर कार्यक्रमांसाठी कस्टम गिफ्ट पॅक देखील तयार करतो.  
+      व्यावसायिक ग्राहकांसाठी बल्क ऑर्डर्स आणि विशेष सवलती उपलब्ध आहेत.
+    </p>
+  </section>
+  <!-- Product Range -->
+<section class="section glass-card" id="products">
+  <h2>आमच्या चविष्ट फ्लेवर्स</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <h3>मसाला केळी चिप्स</h3>
+      <img src="one.jpg" alt="मसाला केळी चिप्स">
+      <button onclick="redirectToWhatsApp()">चौकशी करा</button>
+    </div>
+    <div class="product-card">
+      <h3>टोमॅटो केळी चिप्स</h3>
+      <img src="two.jpg" alt="टोमॅटो केळी चिप्स">
+      <button onclick="redirectToWhatsApp()">चौकशी करा</button>
+    </div>
+    <div class="product-card">
+      <h3>चीज केळी चिप्स</h3>
+      <img src="three.jpg" alt="चीज केळी चिप्स">
+      <button onclick="redirectToWhatsApp()">चौकशी करा</button>
+    </div>
+    <div class="product-card">
+      <h3>पुदिना केळी चिप्स</h3>
+      <img src="four.jpg" alt="पुदिना केळी चिप्स">
+      <button onclick="redirectToWhatsApp()">चौकशी करा</button>
+    </div>
+    <div class="product-card">
+      <h3>सॉल्टेड केळी चिप्स</h3>
+      <img src="five.jpg" alt="सॉल्टेड केळी चिप्स">
+      <button onclick="redirectToWhatsApp()">चौकशी करा</button>
+    </div>
+    <div class="product-card">
+      <h3>ब्लॅक पेपर केळी चिप्स</h3>
+      <img src="six.jpg" alt="ब्लॅक पेपर केळी चिप्स">
+      <button onclick="redirectToWhatsApp()">चौकशी करा</button>
+    </div>
+    <div class="product-card">
+      <h3>जिरा केळी चिप्स</h3>
+      <img src="seven.jpg" alt="जिरा केळी चिप्स">
+      <button onclick="redirectToWhatsApp()">चौकशी करा</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Customer Reviews -->
+  <section class="section glass-card" id="reviews">
+    <h2>ग्राहकांचे अभिप्राय</h2>
+    <blockquote>"चव आणि क्वालिटी अप्रतिम आहे. खरोखरच प्रीमियम चिप्स!" – प्रिया एस.</blockquote>
+    <blockquote>"फारच आकर्षक पॅकेजिंग आणि शाश्वत दृष्टिकोन." – राहुल के.</blockquote>
+  </section>
+
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="#"><img src="download.jpg" alt="Facebook"></a>
+      <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+    </div>
+    <button class="btn-secondary" onclick="redirectToWhatsApp()">व्हॉट्सअॅपवर संपर्क करा</button>
+    <p>&copy; 2025 एमएच19 चिप्स वाला - छत्रपती फूड्स</p>
+  </footer>
+</body>
+</html>
